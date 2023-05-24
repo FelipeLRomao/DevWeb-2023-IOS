@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas: "header header main main"
+    "footer footer sidebar .";
+    column-gap: 15px;
+    row-gap: 15px;
+   
+}
+
+.item-1 {
+    border: 1px solid #000;
+    background-color: #a52a2a;
+    grid-area: header;
+}
+
+.item-2 {
+    border: 1px solid #000;
+    background-color: #027b99;
+    grid-area: main;
+}
+
+.item-3 {
+    border: 1px solid #000;
+    background-color: #5800b0;
+    grid-area: footer;
+}
+
+.item-4 {
+    border: 1px solid #000;
+    background-color: #ee5f00;
+    grid-area: sidebar;
+}

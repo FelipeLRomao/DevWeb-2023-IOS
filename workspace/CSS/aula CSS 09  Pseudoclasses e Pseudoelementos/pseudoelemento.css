@@ -1,0 +1,7 @@
+p::before{
+    content: "Leia isso - ";
+}
+
+p::after{
+    content: " - Leia Mais ";
+}
