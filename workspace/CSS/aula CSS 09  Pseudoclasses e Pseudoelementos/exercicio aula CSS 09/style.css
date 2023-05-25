@@ -1,0 +1,32 @@
+.principal p:first-child{
+  color: #f2f2f2;
+  background-color: #222;
+}
+
+.principal p:last-child{
+  color: blueviolet;
+  background-color: chartreuse;
+}
+
+.principal p:nth-child(2) {
+  color: darkslateblue;
+  background-color: darksalmon;
+}
+
+.principal:hover {
+  color: #abf6dd;
+  background-color: #5100c2;
+}
+
+a::selection {
+  background-color: rgb(178, 0, 0);
+}
+
+.principal p::first-letter {
+  font-size: 50px;
+}
+
+.principal__secondary p::first-line {
+  color: rgb(120, 0, 0);
+  background-color: rgb(255, 238, 0);
+}

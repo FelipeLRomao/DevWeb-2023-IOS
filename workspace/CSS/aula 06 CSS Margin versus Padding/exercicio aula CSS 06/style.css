@@ -1,0 +1,19 @@
+*{
+    background-color: #e8bf56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.conteudo{
+    border: 1px solid #e2f7ce;
+    text-align: center;
+}
+
+.titulo{
+    color: #05a1ad;
+}
+
+.img-produto{
+    width: 500px;
+    height: 500px;
+}
