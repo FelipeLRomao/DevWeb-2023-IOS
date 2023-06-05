@@ -1,0 +1,21 @@
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  
+  
+  .formulario{
+    background-color: #2f2f2f;
+    color: #fdfdfd;
+    padding: 60px;
+  }
+
+  .formulario input{
+    justify-content: center;
+    margin-bottom: 20px;
+  }
