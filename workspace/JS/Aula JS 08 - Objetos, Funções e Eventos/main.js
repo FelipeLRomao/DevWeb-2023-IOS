@@ -1,67 +1,29 @@
-
-/*
-function myFunc(valor1, valor2) {
-    return valor1 * valor2;
-   }
-*/
-   // Funções
-function addNums(num1 = 1, num2 = 1) {
-    return num1 + num2;
-   }
-   let x = addNums(4, 5); // Chamada da função addNums
-   console.log(x);
-   let z = myFunc(4, 5); // Chamada da função myFunc
-   console.log(z);
-   function myFunc(num1, num2) {
-    return num1 * num2;
-   }
-
-// Arrow Function
-
-   const addNums2 = (num1 = 1, num2 = 1) => {
-    return num1 + num2;
-    };
-
-console.clear();
-const hello = () => {
-    return 'Olá Arrow Function!';
-    };
-    console.log(hello); // Retorna o objeto função
-    console.log(hello()); // Executa a função e imprime a string no return
-
-    console.clear();
-    const addNums3 = (num1 = 1, num2 = 1) => {
-    return num1 + num2;
-    };
-    let soma = addNums3(5, 10);
-    console.log(soma);
-    
-
-// Objetos
-
-let marca = 'Fiat';
-const carro = {
-    type: 'Fiat',
-    model: '500',
-    color: 'white',
-    };
-    const pessoa = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 50,
-    eyeColor: 'blue',
-    };
-
-
-// Eventos
-console.clear();
 const boasVindas = () => {
-alert('Bem vindo a nossa página');
-console.log('Bem vindo a nossa página');
-};
-const eventClique = () => {
-console.log('Você clicou no botão');
-};
-const mouseEmCima = () => {
-console.log('Mouse está em cima do título');
-};
+    alert("seja bem vindo aula de Javascript")
+ }
+ 
+ var a = 3
+ var b = 4
+ var c = -5
+ 
+ const delta = (b * b) - (4 * a * c)
+ 
+ function contaCalc1() {
+     const x1 = (-b + Math.sqrt(delta)) / (2 * a)
+     console.log(x1.toFixed(0))
+ }
+ 
+ const contaCalc2 = () => {
+     const x2 = (-b - Math.sqrt(delta)) / (2 * a)
+     console.log(x2.toFixed(0))
+     }
+ 
+     const valoresABC = () => {
+         console.log("Valor de A =", + a)
+         console.log("Valor de B =", + b)
+         console.log("Valor de C =", + c)
+     }
+ 
+     const valorDelta = () => {
+         console.log(delta)
+     }
